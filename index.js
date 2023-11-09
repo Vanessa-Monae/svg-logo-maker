@@ -13,5 +13,9 @@ let questions = [
           logoText.length <= 3 ||
           "The message must not contain more than 3 characters",
       },
-
+      {
+        name: "logoTextColor",
+        type: "input",
+        message: "Enter color  for  Logo text ",
+      },
 ]
