@@ -18,4 +18,15 @@ let questions = [
         type: "input",
         message: "Enter color  for  Logo text ",
       },
+      {
+        name: "logoShape",
+        type: "list",
+        message: "Select a shape for the logo",
+        choices: ["circle", "square", "triangle"],
+      },
+      {
+        name: "logoShapeColor",
+        type: "input",
+        message: "Enter a Logo shape color",
+      },
 ]
